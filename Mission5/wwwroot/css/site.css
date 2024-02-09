@@ -15,8 +15,27 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  width:100vw;
 }
 
 body {
   margin-bottom: 60px;
+  width: 100vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.bodyContent {
+    text-align:left;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.pageHead {
+    width: 70%;
+    margin-left: 15%;
 }
